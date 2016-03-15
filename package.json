@@ -1,0 +1,9 @@
+{
+    "name": "os",
+    "version": "0.0.1",
+    "repo": "nathanfaucett/c-os",
+    "description": "os defines for c",
+    "keywords": ["os"],
+    "license": "MIT",
+    "src": ["lib.h"]
+}
