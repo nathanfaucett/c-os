@@ -7,7 +7,7 @@
     #if defined(_WIN32) || defined(__WIN32__)
         #define __IS_WINDOWS_32__
     #elif defined(_WIN64) || defined(__WIN64__)
-        #define __IS_WINDOW_64__
+        #define __IS_WINDOWS_64__
     #endif
 
     #define __IS_WINDOWS__
@@ -15,7 +15,7 @@
 
 
 #if defined(__CYGWIN__) && !defined(_WIN32)
-    __IS_CYGWIN__
+    #define __IS_CYGWIN__
 #endif
 
 
@@ -39,12 +39,12 @@
 
 
 #if defined(__hpux)
-	#define __IS_HPUX__
+    #define __IS_HPUX__
 #endif
 
 
 #if defined(__linux__)
-	#define __IS_LINUX__
+    #define __IS_LINUX__
 #endif
 
 
