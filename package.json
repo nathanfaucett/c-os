@@ -5,5 +5,7 @@
     "description": "os defines for c",
     "keywords": ["os"],
     "license": "MIT",
-    "src": ["lib.h"]
+    "src": [
+        "src/lib.h"
+    ]
 }
